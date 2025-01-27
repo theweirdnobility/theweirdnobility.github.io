@@ -1,0 +1,11 @@
+body {
+  padding:0;
+  margin: auto;
+  font-family: courier;
+  font-size: 16;
+}
+
+input {
+  width: 350px;
+  padding: 1rem;
+}
