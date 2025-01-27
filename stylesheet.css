@@ -1,11 +1,12 @@
 body {
+  align-text: justify;
   padding:0;
-  margin: auto;
   font-family: courier;
   font-size: 16;
 }
 
 input {
+  margin: auto;
   width: 350px;
   padding: 1rem;
 }
