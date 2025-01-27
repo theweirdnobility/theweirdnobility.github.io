@@ -10,3 +10,7 @@ input {
   width: 350px;
   padding: 1rem;
 }
+
+input[type='password'] {
+  font-family: Verdana;
+}
