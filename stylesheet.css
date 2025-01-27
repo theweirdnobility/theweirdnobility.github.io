@@ -15,3 +15,9 @@ input {
 input[type='password'] {
   font-family: Verdana;
 }
+
+button {
+  width: 2rem;
+  height: 1rem;
+  border-radius: 5px;
+}
