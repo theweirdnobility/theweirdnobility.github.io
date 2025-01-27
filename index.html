@@ -3,6 +3,14 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <input type="password" placeholder="Password" /> 
+    <input id="inputField" type="password" placeholder="Password" /><button type="submit" onclick="submit()" />
+    <script>
+       function submit() {
+         let input = document.getElementById("inputField");
+         if (input.value === "password") {
+            window.location.href = 'txt.html';
+         };
+       };
+    </script>
   </body>
 </html>
